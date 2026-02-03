@@ -30,14 +30,12 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="relative rounded-3xl overflow-hidden bg-white/5 border border-white/10 w-64 md:w-72">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/screenshots/onboarding-reports.png"
-                alt="InspectIQ App Screenshot"
-                className="w-full h-auto"
-              />
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/screenshots/onboarding-reports.png"
+              alt="InspectIQ App Screenshot"
+              className="w-80 md:w-96 h-auto"
+            />
           </div>
         </div>
       </section>
