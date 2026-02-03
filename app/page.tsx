@@ -34,7 +34,7 @@ export default function Home() {
             <img
               src="/screenshots/onboarding-reports.png"
               alt="InspectIQ App Screenshot"
-              className="w-80 md:w-96 h-auto"
+              className="w-96 md:w-[480px] h-auto"
             />
           </div>
         </div>
