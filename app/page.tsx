@@ -73,7 +73,7 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center">
-            <div className="relative mb-4 rounded-2xl overflow-hidden bg-white/5 border border-white/10 aspect-[9/16]">
+            <div className="relative mb-4 aspect-[9/16]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/screenshots/onboarding-capture.png"
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <div className="relative mb-4 rounded-2xl overflow-hidden bg-white/5 border border-white/10 aspect-[9/16]">
+            <div className="relative mb-4 aspect-[9/16]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/screenshots/onboarding-voice.png"
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <div className="relative mb-4 rounded-2xl overflow-hidden bg-white/5 border border-white/10 aspect-[9/16]">
+            <div className="relative mb-4 aspect-[9/16]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/screenshots/onboarding-ai.png"
@@ -112,7 +112,7 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <div className="relative mb-4 rounded-2xl overflow-hidden bg-white/5 border border-white/10 aspect-[9/16]">
+            <div className="relative mb-4 aspect-[9/16]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/screenshots/onboarding-reports.png"
