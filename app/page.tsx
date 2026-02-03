@@ -32,9 +32,9 @@ export default function Home() {
           <div className="flex justify-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/screenshots/onboarding-reports.png"
-              alt="InspectIQ App Screenshot"
-              className="w-96 md:w-[480px] h-auto"
+              src="/screenshots/hero-mockup.png"
+              alt="InspectIQ App - Dashboard and Report Preview"
+              className="w-full max-w-[560px] h-auto"
             />
           </div>
         </div>
@@ -62,6 +62,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Time Savings Hero */}
+      <section className="max-w-6xl mx-auto px-6 py-24">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+              Save Up to <span className="text-green-500">80%</span> of Your Time
+            </h2>
+            <p className="text-neutral-400 mb-6">
+              Stop spending hours on paperwork. InspectIQ tracks your time savings 
+              so you can see exactly how much more efficient you&apos;ve become.
+            </p>
+            <ul className="space-y-3 text-neutral-300">
+              <li className="flex items-center gap-3">
+                <span className="text-green-500">✓</span>
+                Complete 2x more inspections per day
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="text-green-500">✓</span>
+                Weekly summary of hours saved
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="text-green-500">✓</span>
+                Compare with traditional methods
+              </li>
+            </ul>
+          </div>
+          <div className="flex justify-center">
+            <div className="relative max-w-[280px]">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/screenshots/onboarding-time-savings.png"
+                alt="Weekly Summary showing 12 hours saved"
+                className="w-full rounded-3xl shadow-2xl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* App Screenshots */}
       <section className="max-w-6xl mx-auto px-6 py-24">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-center">
@@ -71,8 +110,8 @@ export default function Home() {
           From photo capture to final report, InspectIQ streamlines your entire workflow.
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="text-center">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 items-end pb-12">
+          <div className="text-center lg:translate-y-8">
             <div className="relative mb-4 aspect-[9/16] transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -85,7 +124,7 @@ export default function Home() {
             <p className="text-sm text-neutral-400">Photos organized by room</p>
           </div>
 
-          <div className="text-center">
+          <div className="text-center lg:-translate-y-4">
             <div className="relative mb-4 aspect-[9/16] transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -98,7 +137,7 @@ export default function Home() {
             <p className="text-sm text-neutral-400">Speak, don&apos;t type</p>
           </div>
 
-          <div className="text-center">
+          <div className="text-center lg:-translate-y-4">
             <div className="relative mb-4 aspect-[9/16] transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -111,7 +150,7 @@ export default function Home() {
             <p className="text-sm text-neutral-400">Smart issue detection</p>
           </div>
 
-          <div className="text-center">
+          <div className="text-center lg:translate-y-8">
             <div className="relative mb-4 aspect-[9/16] transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
